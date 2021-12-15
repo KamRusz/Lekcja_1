@@ -13,47 +13,47 @@ print("na koniec podaj kwotę raty")
 rata = int(input())
 formula =(1+((sty1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W styczniu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W styczniu twoja pozostała kwota kredytu to     {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((lut1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W lutym twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W lutym twoja pozostała kwota kredytu to        {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((mar1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W marcu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W marcu twoja pozostała kwota kredytu to        {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((kwi1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W kwietniu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W kwietniu twoja pozostała kwota kredytu to     {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((maj1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W maju twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W maju twoja pozostała kwota kredytu to         {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((cze1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W czerwcu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W czerwcu twoja pozostała kwota kredytu to      {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((lip1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W lipcu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W lipcu twoja pozostała kwota kredytu to        {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((sie1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W sierpniu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W sierpniu twoja pozostała kwota kredytu to     {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((wrz1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("We wrześniu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("We wrześniu twoja pozostała kwota kredytu to    {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((paz1+oprocentowanie)/1200))*wysokosc_kredyt-200
@@ -63,10 +63,70 @@ print("W październiku twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł
 wysokosc_kredyt = formula
 formula =(1+((lis1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W listopadzie twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W listopadzie twoja pozostała kwota kredytu to  {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
 wysokosc_kredyt = formula
 formula =(1+((gru1+oprocentowanie)/1200))*wysokosc_kredyt-200
 roznica = wysokosc_kredyt - formula
-print("W grudniu twoja pozostała kwota kredytu to {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+print("W grudniu twoja pozostała kwota kredytu to      {:.5f}zł, to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((sty2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W styczniu twoja pozostała kwota kredytu to     {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((lut2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W lutym twoja pozostała kwota kredytu to        {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((mar2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W marcu twoja pozostała kwota kredytu to        {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((kwi2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W kwietniu twoja pozostała kwota kredytu to     {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((maj2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W maju twoja pozostała kwota kredytu to         {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((cze2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W czerwcu twoja pozostała kwota kredytu to      {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((lip2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W lipcu twoja pozostała kwota kredytu to        {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((sie2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W sierpniu twoja pozostała kwota kredytu to     {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((wrz2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("We wrześniu twoja pozostała kwota kredytu to    {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((paz2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W październiku twoja pozostała kwota kredytu to {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((lis2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W listopadzie twoja pozostała kwota kredytu to  {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
+      "miesiącu".format(formula, roznica))
+wysokosc_kredyt = formula
+formula =(1+((gru2+oprocentowanie)/1200))*wysokosc_kredyt-200
+roznica = wysokosc_kredyt - formula
+print("W grudniu twoja pozostała kwota kredytu to      {:.5f}zł,  to {:.5f}zł mniej niż w poprzednim "
       "miesiącu".format(formula, roznica))
