@@ -10,7 +10,7 @@ wysokosc_kredyt = float(input())
 print("teraz podaj oprocentowanie kredytu w %")
 oprocentowanie = float(input())
 print("na koniec podaj kwotę raty")
-rata = int(input())
+rata = float(input())
 formula = (1+((sty1+oprocentowanie)/1200))*wysokosc_kredyt-rata
 roznica = wysokosc_kredyt - formula
 print("W styczniu twoja pozostała kwota kredytu to     {:.5f}zł, to {:.5f}zł "
